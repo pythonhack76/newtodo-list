@@ -29,7 +29,7 @@
 </div>
 
 <div class="text-center">
-    <h2>Tutti i Tasks</h2>
+    <h2>Tutti i Tasks attivi</h2>
    <div class="row justify-content-center">
        
         <div class="col-lg-9">
@@ -61,7 +61,7 @@
                             @endif
                         </td>
                         <td>
-                            <a class="btn btn-info">Edit</a>
+                            <a href="{{route('todos.edit',['todo'=>$todo->id])}}" class="btn btn-info">Edit</a>
                             <a class="btn btn-danger">Delete</a>
                         </td>
                     </tr>
