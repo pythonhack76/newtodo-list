@@ -1,5 +1,5 @@
 <div class="text-center">
-    <h2>All Todos</h2>
+    <h2>Tutti i Tasks</h2>
     <div class="row justify-content-center">
         <div class="col-lg-6">
 
@@ -7,10 +7,10 @@
                 <thead>
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Created at</th>
-                    <th scope="col">Status</th>
-                    <th scope="col">Action</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Creato il</th>
+                    <th scope="col">Stato</th>
+                    <th scope="col">Azione</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -36,6 +36,7 @@
                     </tr>
 
                     @php $counter++; @endphp
+                    @php @endphp
 
                 @endforeach
                 </tbody>

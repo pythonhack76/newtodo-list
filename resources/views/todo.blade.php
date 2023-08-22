@@ -8,13 +8,14 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Segnalino Software CMS</title>
 </head>
 <body>
-<h1>Hello, world!</h1>
+<h1>Tasks Manager </h1>
+
 
 <div class="text-center mt-5">
-    <h2>Add Todo</h2>
+    <h2>Aggiungi Task</h2>
 
     <form class="row g-3 justify-content-center" method="POST" action="{{route('todos.store')}}">
         @csrf
@@ -42,8 +43,11 @@
                 </div>
             @endforeach
         @endif
+        
     </div>
+    
 </div>
+
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
